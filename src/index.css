@@ -1,0 +1,37 @@
+:root{
+  --bodyBg: #23252C;
+  --rootBg: #1A1B21;
+  --textColor: #FFF;
+}
+
+
+*{
+  box-sizing: border-box;
+  color: var(--textColor);
+  text-align: center;
+  line-height: normal;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  padding-block: 1rem;
+  font-family: Inter, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100svh;
+  min-height: 100svh;
+  background: var(--bodyBg);
+}
+
+.root{
+  width: min(320px, 80%);
+  background: var(--rootBg);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+button{
+  cursor: pointer;
+}
